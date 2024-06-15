@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background: red;
+}
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 9%;
+  background: transparent;
+}
+.logo {
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+.navlist {
+  display: flex;
+}
+.navlist a {
+  color: white;
+  margin-left: 60px;
+  font-size: 15px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.55s ease;
+  font-weight: 600;
+}
+.navlist a:hover {
+  border-bottom: 2px solid gray;
+}
+#menu-icon {
+  color: white;
+  font-size: 32px;
+  z-index: 1001;
+  cursor: pointer;
+  display: none;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+section {
+  padding: 0 19%;
+}
+
+.hero-text {
+  color: white;
+}
