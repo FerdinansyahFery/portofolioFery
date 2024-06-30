@@ -157,7 +157,7 @@ section {
   }
 }
 @media (max-width: 1460px) {
-  .section {
+  section {
     padding: 0 12%;
     transition: 0.2s;
   }
@@ -176,6 +176,12 @@ section {
   .hero-text {
     padding-top: 115px;
   }
+  .hero{
+    height: 100%;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+  }
+  
 }
 @media (max-width: 990px) {
   #menu-icon {
